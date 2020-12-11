@@ -1,0 +1,56 @@
+#calc {
+  height: 450px;
+  width: 400px;
+  background-color: black;
+  position: absolute;
+  top: 20%;
+  right: 20%;
+}
+#displayDiv {
+  height: 70px;
+  width: 330px;
+  background-color: slategrey;
+  margin: 5% 10% 5% 9%;
+}
+#displayDiv p {
+  position: relative;
+  left: 2%;
+  top: -52%;
+  font-size: 35px;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#buttons {
+  display: flex;
+  flex-flow: row wrap;
+}
+.btn {
+  height: 60px;
+  width: 60px;
+  background-color: gray;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  font-size: 30px;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  border-radius: 30%;
+  font-weight: 10;
+}
+#clear {
+  flex-grow: 1;
+  border-radius: 0%;
+}
+#displayDiv h4 {
+  font-size: 1.5em;
+  color: white;
+  font-weight: normal;
+  position: relative;
+  left: 1%;
+  top: 2%;
+  letter-spacing: 0.8px;
+}
